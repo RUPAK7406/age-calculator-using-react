@@ -19,7 +19,6 @@ class AgeCalculator extends Component {
 
   getCalculatedAgeText = () => {
     const calculatedAge = this.getCalculatedAge()
-    console.log(calculatedAge)
 
     if (calculatedAge === 1) {
       return `You are 1 year old by the end of 2021`
